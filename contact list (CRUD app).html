@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List App</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+    <section class="contacts">
+        <div class="search">
+            <input placeholder="Search">
+        </div>
+        <h1>Contacts</h1>
+        <!-- <i class="fa-solid fa-list"></i> -->
+        <!-- <i class="fa-solid fa-table-cells-large"></i> -->
+        <!-- <select>
+            <option></option>
+        </select> -->
+
+        <!-- <i></i>
+        <i></i> -->
+        <table>
+            <thead>
+                <tr>
+                    <th id="add_contact"><i class="fa-solid fa-plus"></i></th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>1</td>
+                    <td><img src="images/1.jpg"><span>hagar</span></td>
+                    <td>010-6555-6689</td>
+                    <td>aki_sj23@gamai.com</td>
+                    <td>Tanta, Abiar</td>
+                    <td>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="images/2.jpg"><span>MOAss gamal</span></td>
+                    <td>012-1244-8503</td>
+                    <td>meraisk23@gamail.com</td>
+                    <td>Tanta, Abiar</td>
+                    <td>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+
+
+
+
+
+        <!-----------------------modal---------------------------->
+        <div class="add-modal">
+            <div class="add">
+                <div class="name-img">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <input placeholder="Name" id="name">
+                <input placeholder="Phone" id="phone">
+                <input placeholder="Email" id="email">
+                <input placeholder="Address" id="address">
+                <button class="save">Save</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-------------------------ja script--------------------------------->
+    <script src="js/main js.js"></script>
+</body>
+
+</html>
